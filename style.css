@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;700;900&display=swap');
+
+:root {
+  /* --pg-bg-dark */
+  --black-grey: #101010;
+  /* --pg-bg-light */
+  --off-white: #ebebeb;
+  
+  /* --nav-bg-light */
+  --light-grey: #a19fa1;
+  /* --nav-bg-dark */
+  --mid-grey: #939393;
+  
+  --rose-grey: #a493a4;
+  --dark-violet: #372737;
+}
+
+* {
+  font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+body {
+  background-color: var(--off-white);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar {
+  background-color: var(--dark-violet);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.logo {
+  
+}
+.logo-a {
+  
+}
+.logo-img {
+  width: 50%;
+}
+
+.menu {
+  list-style: none;
+}
+#menuBtn {
+  padding: 0;
+  width: 32px;
+  height: 32px;
+}
+.menu-icon {
+  
+}
+
+.main {
+  
+}
+.fb-page {
+  width: 400px;
+  height: 400px;
+}
