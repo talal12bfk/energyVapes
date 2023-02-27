@@ -1,6 +1,7 @@
 let body = document.body;
 let html = document.getElementsByTagName("html")[0];
 
+
 let menuBtn = document.getElementById('menuBtn');
 menuBtn.addEventListener("click", () => {
   console.log("hello");
@@ -20,7 +21,7 @@ langBtn.addEventListener("click", () => {
 })
 
 function setLang(lang) {
-  
+  console.log(lang)
 }
 
 console.log(langBtn.innerText)
